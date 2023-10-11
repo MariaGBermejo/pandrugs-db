@@ -41,6 +41,10 @@ In this table are described the sources included in the database and in the anno
 | VEP | v109 | Apache-2.0 | Variant annotations |
 
 * Dates are displayed in ISO 8601 standard format: YYYY-MM-DD.
+* Databases used to annotate variants during VEP parsing are available here:
+https://drive.google.com/drive/folders/1dEt4jobc4bq1PLKBvhUW0zOdVGc62hNM?usp=drive_link
+(cosmic.db is generated from COSMIC.tsv file using the script VEP_parser_cosmic.tsv_to_SQLdb.py
+in order to optimize the later database handling for variant annotation with VEP_parser.py)
 
 ## Synthethic letal pairs
 SL pairs are generated separately from the database and then merged back to the databse. The code responsible for generating and updating these pairs is stored [here](https://github.com/cnio-bu/pandrugs_sl_pairs).
