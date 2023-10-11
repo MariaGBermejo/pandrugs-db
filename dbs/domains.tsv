@@ -1,0 +1,112 @@
+Primary Site	Gene Symbol	Domain Name	# of Mutations Fallin SMDIs	Domain code
+Autonomic ganglia	ALK	Pkinase_Tyr	7	PF07714
+Bone	DGKZ	DAGK_acc	13	PF00609
+Bone	ERBB3	GF_recep_IV	13	PF14843
+Bone	NTNG1	Laminin_N	13	PF00055
+Bone	PRKACB	Pkinase	13	PF00069
+Bone	BLNK	SH2	13	PF00017
+Breast	MT-CYB	Cytochrom_B_C	368	PF00032
+Breast	TP53	P53	368	PF00870
+Breast	AKT1	PH	368	PF00169
+Breast	MLL3	zf-HC5HC2H	368	PF13771
+Central nervous system	PCDH11X	Cadherin	228	PF00028
+Central nervous system	PCDH11Y	Cadherin	228	PF00028
+Central nervous system	DDX3X	DEAD	228	PF00270
+Central nervous system	PSTPIP2	FCH	228	PF00611
+Central nervous system	FKBP9	FKBP_C	228	PF00254
+Central nervous system	EGFR	Furin-like	228	PF00757
+Central nervous system	EGFR	GF_recep_IV	228	PF14843
+Central nervous system	DDX3X	Helicase_C	228	PF00271
+Central nervous system	TP53	P53	228	PF00870
+Central nervous system	FGFR1	Pkinase_Tyr	228	PF07714
+Central nervous system	SMARCA4	SNF2_N	228	PF00176
+Cervix	CAGE1	CAGE1	15	PF15066
+Cervix	SLC16A5	MFS_1	15	PF07690
+Cervix	MT1G	Metallothio	15	PF00131
+Cervix	MAST1	PDZ	15	PF00595
+Endometrium	ACSM4	AMP-binding	313	PF00501
+Endometrium	POLE	DNA_pol_B_exo1	313	PF03104
+Endometrium	PTEN	DSPc	313	PF00782
+Endometrium	CYFIP2	FragX_IP	313	PF05994
+Endometrium	PPP2R1A	HEAT_2	313	PF13646
+Endometrium	KIF26B	Kinesin	313	PF00225
+Endometrium	MBD1	MBD	313	PF01429
+Endometrium	MT-ND1	NADHdh	313	PF00146
+Endometrium	PIK3CA	PI3K_p85B	313	PF02192
+Endometrium	PIK3CA	PI3Ka	313	PF00613
+Endometrium	FGFR2	Pkinase_Tyr	313	PF07714
+Hematopoietic & lymph	P2RY8	7tm_1	373	PF00001
+Hematopoietic & lymph	BCL2	BH4	373	PF02180
+Hematopoietic & lymph	BTG1	BTG	373	PF07742
+Hematopoietic & lymph	BCL2	Bcl-2	373	PF00452
+Hematopoietic & lymph	DMBT1	CUB	373	PF00431
+Hematopoietic & lymph	EPHA6	EphA2_TM	373	PF14575
+Hematopoietic & lymph	KRT6A	Filament	373	PF00038
+Hematopoietic & lymph	FOXO1	Fork_head	373	PF00250
+Hematopoietic & lymph	GNA13	G-alpha	373	PF00503
+Hematopoietic & lymph	IRF4	IRF	373	PF00605
+Hematopoietic & lymph	CD79B	ITAM	373	PF02189
+Hematopoietic & lymph	CNTN4	Ig_2	373	PF13895
+Hematopoietic & lymph	ITPR3	Ins145_P3_rec	373	PF08709
+Hematopoietic & lymph	CREBBP	KAT11	373	PF08214
+Hematopoietic & lymph	HIST1H1E	Linker_histone	373	PF00538
+Hematopoietic & lymph	CD74	MHC2-interact	373	PF09307
+Hematopoietic & lymph	MYC	Myc_N	373	PF01056
+Hematopoietic & lymph	NPIPL2	NPIP	373	PF06409
+Hematopoietic & lymph	TP53	P53	373	PF00870
+Hematopoietic & lymph	MAGI1	PDZ	373	PF00595
+Hematopoietic & lymph	CDK11A	Pkinase	373	PF00069
+Hematopoietic & lymph	PIM1	Pkinase	373	PF00069
+Hematopoietic & lymph	PRKCB	Pkinase	373	PF00069
+Hematopoietic & lymph	HCK	Pkinase_Tyr	373	PF07714
+Hematopoietic & lymph	MYD88	TIR	373	PF01582
+Hematopoietic & lymph	ANTXR1	VWA	373	PF00092
+Hematopoietic & lymph	CTNNA3	Vinculin	373	PF01044
+Kidney	PBRM1	Bromodomain	99	PF00439
+Kidney	MT-ND6	Oxidored_q3	99	PF00499
+Kidney	SETD2	SET	99	PF00856
+Kidney	VHL	VHL	99	PF01847
+Kidney	PTPRQ	fn3	99	PF00041
+Colon	FAT4	Cadherin	351	PF00028
+Colon	SMAD4	MH2	351	PF03166
+Colon	FBXW7	WD40	351	PF00400
+Liver	TP53	P53	108	PF00870
+Liver	TP53	P53_tetramer	108	PF07710
+Liver	USP25	UCH	108	PF00443
+Lung	KEAP1	Kelch_1	921	PF01344
+Lung	TP53	P53	921	PF00870
+Lung	EGFR	Pkinase_Tyr	921	PF07714
+Lung	KRAS	Ras	921	PF00071
+Lung	CD6	SRCR	921	PF00530
+Lung	CFHR4	Sushi	921	PF00084
+Lung	SNPH	Syntaphilin	921	PF15290
+Lung	PRPF19	WD40	921	PF00400
+Lung	U2AF1	zf-CCCH	921	PF00642
+Meninges	RBP1	Lipocalin	11	PF00061
+Meninges	TRAF7	WD40	11	PF00400
+Meninges	KLF4	zf-H2C2_2	11	PF13465
+Oesophagus	SMAD4	MH2	187	PF03166
+Oesophagus	TP53	P53	187	PF00870
+Oesophagus	SMARCA4	SNF2_N	187	PF00176
+Oesophagus	ODZ2	Ten_N	187	PF06484
+Ovary	TP53	P53	225	PF00870
+Pancreas	KRAS	Ras	32	PF00071
+Prostate	CCNF	Cyclin_C	57	PF02984
+Prostate	PLCH2	EF-hand_7	57	PF13499
+Prostate	LPHN3	GPS	57	PF01825
+Prostate	NKX3-1	Homeobox	57	PF00046
+Prostate	SPOP	MATH	57	PF00917
+Prostate	CNOT3	Not3	57	PF04065
+Prostate	PTPRD	Y_phosphatase	57	PF00102
+Prostate	MLL3	zf-HC5HC2H	57	PF13771
+Salivary gland	CCDC14	CCDC14	3	PF15254
+Skin	CDKN2A	Ank_2	125	PF12796
+Skin	BRAF	Pkinase_Tyr	125	PF07714
+Skin	NRAS	Ras	125	PF00071
+Skin	RAC1	Ras	125	PF00071
+Skin	PRG4	Somatomedin_B	125	PF01033
+Soft tissue	COLEC11	Collagen	2	PF01391
+Upper aero-digestive tract	NOTCH1	EGF_CA	88	PF07645
+Upper aero-digestive tract	TP53	P53	88	PF00870
+Upper aero-digestive tract	HRAS	Ras	88	PF00071
+Urinary tract	SCYL3	Pkinase	6	PF00069
