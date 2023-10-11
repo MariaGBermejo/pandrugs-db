@@ -3,8 +3,6 @@ import re
 import pandas as pd
 import sqlite3
 
-dbdir = "../../dbs_text"
-
 
 # Information about commmand line arguments required by python script.
 def help_info():
@@ -34,6 +32,6 @@ else:
 
 # Transform COSMIC.tsv file into a sqlite3 database.
 cosmic_df = pd.read_csv(f"{dbdir}/COSMIC.tsv", index_col=0, sep="\t")
-cosmic_db = sqlite3.connect("{dbdir}/cosmic.db")
+cosmic_db = sqlite3.connect(f"{dbdir}/cosmic.db")
 cosmic_df.to_sql("cosmic_table", cosmic_db, if_exists="replace")
 cosmic_db.close()
