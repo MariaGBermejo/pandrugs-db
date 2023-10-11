@@ -334,7 +334,7 @@ def VEP_parser_per_chr(chr_num):
                         Cosmic_key = f'{fields[pos["SYMBOL"]]}:{fields[pos["Feature"]]}:{HGVSc}'
                         cosmic_query = cosmic_db.execute(
                             "SELECT cosmic_id, FATHMM, Gene_freq, Mut_freq, Total FROM cosmic_table WHERE"
-                            f' Cosmic_key="{Cosmic_key}"'
+                            f' Cosmic_key="{Cosmic_key}";'
                         ).fetchall()
                         if cosmic_query:
                             (cosmic_id, cosmic_fathmm, gene_freq, mut_freq, cosmic_total) = cosmic_query[0]
@@ -608,7 +608,8 @@ os.makedirs(outexp)
 # fmt:off
 ## Load files into variables.
 # Larger files has been previous converted into sqlite3 database format.
-cosmic_db = sqlite3.connect("cosmic.db").cursor()
+cosmic_conn = sqlite3.connect(f"{dbdir}/cosmic.db")
+cosmic_db = cosmic_conn.cursor()
 
 # Rest of files are read as pandas dataframes.
 cosmic_gene_freq_db = pd.read_csv(f"{dbdir}/cosmic_gene_freq.tsv", index_col=0, sep="\t")
@@ -741,7 +742,7 @@ annotations_sort = [
 # fmt:off
 with Pool(processes=max_processes) as p:
     p.map(VEP_parser_per_chr, chr_names)
-
+cosmic_conn.close()
 
 # Create a single file with all variants located in different chromosomes.
 greatout = open(f"{outexp}/vep_data.csv", "w")
