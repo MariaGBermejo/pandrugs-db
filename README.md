@@ -42,7 +42,7 @@ In this table are described the sources included in the database and in the anno
 
 * Dates are displayed in ISO 8601 standard format: YYYY-MM-DD.
 * Databases used to annotate variants during VEP parsing are available here:
-https://drive.google.com/drive/folders/1dEt4jobc4bq1PLKBvhUW0zOdVGc62hNM?usp=drive_link
+https://drive.google.com/drive/folders/1nRu22wZ43YfRSwPg52Ak6SrQNeufshSA?usp=drive_link
 (cosmic.db is generated from COSMIC.tsv file using the script VEP_parser_cosmic.tsv_to_SQLdb.py
 in order to optimize the later database handling for variant annotation with VEP_parser_PD.py)
 
